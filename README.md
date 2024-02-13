@@ -25,3 +25,12 @@ Aprendiendo todo sobre TypeScript
 - TypeAlias_UnionTye
   - Se puede crear unos tipos para usarlo dentro de otros tipos (template union types).
   - No valida datos pero si se puede decir el tipo de cadena de texto que se requiere.
+- Intersection_Type
+  - Extender los tipos, crear tipos uniéndolos con otros tipos.
+- Type_Indexing_From
+  - Type Indexing: Permite reutilizar tipos que ya se hayan creado.
+  - Type From: el 'typeof' permite extraer los tipos de un objeto e incluso funciones (usando el ReturnType) para crear otros tipos.
+- Arrays_Matrices
+  - Arrays
+    - Se debe de tipar para agregar valores.
+    - Si se quiere agregar mas de un tipo al array, se debe de poner los tipos dentro de un paréntesis
