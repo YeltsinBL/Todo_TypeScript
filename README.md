@@ -30,7 +30,16 @@ Aprendiendo todo sobre TypeScript
 - Type_Indexing_From
   - Type Indexing: Permite reutilizar tipos que ya se hayan creado.
   - Type From: el 'typeof' permite extraer los tipos de un objeto e incluso funciones (usando el ReturnType) para crear otros tipos.
-- Arrays_Matrices
+- Arrays_Matrices_Tupla
   - Arrays
     - Se debe de tipar para agregar valores.
     - Si se quiere agregar mas de un tipo al array, se debe de poner los tipos dentro de un paréntesis
+  - Tupla
+    - Tiene un tamaño fijo de longitud del array.
+    - Si se requiere que la tupla no se modifique en su longitud, se puede agregar un readonly al momento de crearlo
+- Enums
+  - Solo existen en TS, no en JS.
+  - Se utiliza para una colección de datos finitos y pocos.
+  - Si se utiliza el `const` para el enum, este generaría menos código de JS pero, si no se utiliza es crearía como un objeto en JS.
+
+> Nota: utilizar el `const` cuando el proyecto es interno (personal o de un empresa) pero, si se va a utilizar fuera para que alguien lo puede importar, consultar y/o revisar los tipos, es mejor evitar el uso del const.
