@@ -54,3 +54,12 @@ Aprendiendo todo sobre TypeScript
 >> Se debe de tener cuidado porque si falla al hacer la aserción puede fallar en la ejecución. Es mas recomendable utilizar el 'instanceof' para indicar el tipo de elemento en HTML.
 >>
 >> Para utilizar la aserción cuando utilizamos una api, se debe de validar los tipos que recibiremos, por lo cual se puede utilizar una biblioteca para las validaciones de tipos como 'zod' y todo ese código si se ejecuta en JS.
+
+- Interfaces
+  - Contrato que define lo que tiene que seguir los objetos y que propiedades y métodos deben tener.
+  - Se puede extender los tipos pero no es igual que los types.
+  - Todas las interfaces desaparecen cuando se compilan a JS.
+  - No se puede declarar los tipos primitivos.
+  - Usar las interfaces en las clases u objetos medianamente grandes.
+
+> Nota: en los types no puede tener el misto tipo 2 veces y en las interfaces se puede tener 2 veces la misma interfaz y los extiende automáticamente.
