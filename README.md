@@ -43,3 +43,14 @@ Aprendiendo todo sobre TypeScript
   - Si se utiliza el `const` para el enum, este generaría menos código de JS pero, si no se utiliza es crearía como un objeto en JS.
 
 > Nota: utilizar el `const` cuando el proyecto es interno (personal o de un empresa) pero, si se va a utilizar fuera para que alguien lo puede importar, consultar y/o revisar los tipos, es mejor evitar el uso del const.
+
+## 02-Intermedio
+
+- Aserciones_Tipos
+  - Se debe de indicar a que tipo de elemento especifico se refiere, porque TS no lo sabe.
+  - Al usar TS con HTML no sabe que tipo de elemento va a encontrar y por lo general usa el HTMLElement.
+
+> Nota:
+>> Se debe de tener cuidado porque si falla al hacer la aserción puede fallar en la ejecución. Es mas recomendable utilizar el 'instanceof' para indicar el tipo de elemento en HTML.
+>>
+>> Para utilizar la aserción cuando utilizamos una api, se debe de validar los tipos que recibiremos, por lo cual se puede utilizar una biblioteca para las validaciones de tipos como 'zod' y todo ese código si se ejecuta en JS.
