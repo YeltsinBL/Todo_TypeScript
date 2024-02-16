@@ -66,3 +66,6 @@ Aprendiendo todo sobre TypeScript
 
 - Narrowing
   - Asegurarse que el tipo que se va a utilizar es el correcto.
+- Type_Guard_Never
+  - Guard: Discrimina el(los) tipo(s) al verificar cual es el verdadero
+  - Never: Al reducir todas las posibilidades de un tipo, TS usa el tipo NEVER para representar un estado que no existe.
