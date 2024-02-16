@@ -63,3 +63,6 @@ Aprendiendo todo sobre TypeScript
   - Usar las interfaces en las clases u objetos medianamente grandes.
 
 > Nota: en los types no puede tener el misto tipo 2 veces y en las interfaces se puede tener 2 veces la misma interfaz y los extiende automáticamente.
+
+- Narrowing
+  - Asegurarse que el tipo que se va a utilizar es el correcto.
