@@ -69,3 +69,6 @@ Aprendiendo todo sobre TypeScript
 - Type_Guard_Never
   - Guard: Discrimina el(los) tipo(s) al verificar cual es el verdadero
   - Never: Al reducir todas las posibilidades de un tipo, TS usa el tipo NEVER para representar un estado que no existe.
+- Clases:
+  - Para realizar una propiedad privada, según la forma de JS es ponerlo un `#` antes del nombre de sus atributos y para TS se pone el `private`.
+  - También puede implementar de una interfaz.
